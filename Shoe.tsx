@@ -4,7 +4,7 @@ const buttonStyle = {
   margin: "10px 0"
 };
 
-const Basic = ({ label, isDisabled, handleClick }) => (
+const Shoe = ({ label, isDisabled, handleClick }) => (
   <button
     className="btn btn-default"
     style={buttonStyle}
@@ -15,4 +15,4 @@ const Basic = ({ label, isDisabled, handleClick }) => (
   </button>
 );
 
-export default Basic;
+export default Shoe;
